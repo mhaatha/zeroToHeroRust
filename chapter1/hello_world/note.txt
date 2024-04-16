@@ -1,0 +1,9 @@
+main.rs:
+- println! calls a Rust macro. That macros don't always follow the same rules as functions.
+- println calls a normal function.
+- don't forget semicolon(;) to end the line.
+- Compiling & Running
+- compiling = rustc <file to compile> || After compiling, Rust outputs a binary executable
+- running = ./<file to run>
+- Rust is an "ahead-of-time compiled" language. You can compile a program and give the executable to someone else and they can run it even without having Rust installed.
+
