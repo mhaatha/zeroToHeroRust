@@ -1,0 +1,21 @@
+- Cargo is Rust's build system and package manager.
+- cargo new initialized a new Git repo along with a .gitignore file. But won't generated if you have an existing remote repository. But you can override this behaviour using cargo new --vcs=git.
+- TOML (Tom's Obvious, Minimal Language) is Cargo's configuration format.
+- In Rust, package of code are referred to as crates.
+- Cargo expects your source files to live inside the src directory.
+- The top-level project directory is just for README files, license information, configuration files, and anything else not related to your code.
+- "cargo build" this command creates an executable file in target/debug/hello_cargo 
+- Running cargo build for the first time also causes Cargo to create a new file at the top level.
+- Cargo.lock is a file to keeps track of the exact versions of dependencies in your project.
+- Use cargo run to compile and also run the file.
+- Use cargo check to check your file and not produce an executable.
+- We can create a project using cargo new.
+- We can build a project using cargo build.
+- We can build and run a project in one step using cargo run.
+- We can build a project without producing a binary to check for errors using cargo check.
+- Instead of saving the result of the build in the same directory as our code, Cargo stores it in the target/debug directory.
+- Development: Rebuild quickly and often.
+- Release: The final program you'll give to a user that won't be rebuilt repeatedly and that will run as fast as possible.
+
+
+
