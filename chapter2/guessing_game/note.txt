@@ -1,0 +1,9 @@
+- To obtain user input and then print the result as output, we need to bring the io (input/output) library into scope. The io library comes from the standard library, known as std.
+- By default, Rust has a set of items defined in the standard library that it brings into the scope of every program. This set is called prelude.
+- The prelude is the list of things that Rust automatically imports into every Rust program.
+- String::new() -> a function that returns a new instance of a String.
+- The :: syntax in the ::new line indicates that new is an associated function of the String type.
+- An associated function is a function that's implemented on a type, in this case String.
+- This new function creates a new, empty string.
+- In full, the let mut guess = String::new(); line has created a mutable variable that is currently bound to a new, empty instance of a String.
+- The full job of read_line is to take whatever the user types into standard input and append that into a string (without overwriting its contents).
