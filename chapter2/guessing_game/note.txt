@@ -7,3 +7,5 @@
 - This new function creates a new, empty string.
 - In full, the let mut guess = String::new(); line has created a mutable variable that is currently bound to a new, empty instance of a String.
 - The full job of read_line is to take whatever the user types into standard input and append that into a string (without overwriting its contents).
+- Enumeration is a type that can be in one of multiple possible states. We call each possible state a variant.
+- cargo doc --open to see crate's documentation.
