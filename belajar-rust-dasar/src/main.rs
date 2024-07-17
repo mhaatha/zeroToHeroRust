@@ -44,3 +44,9 @@ fn shadowing() {
     let name = true;
     println!("Hello {}", name);
 }
+
+#[test]
+fn explicit() {
+    let age: i32 = 19;
+    println!("{}", age);
+}
